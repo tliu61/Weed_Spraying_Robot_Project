@@ -1,0 +1,40 @@
+********************************************************************************
+TMS320C6x Hex Converter                                                  v7.4.22
+********************************************************************************
+
+INPUT FILE NAME: <C:/tliu61_xz7/mylabs/day123/day123Project\debug\day123.out>
+OUTPUT FORMAT:   Binary
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x0000, PAGE 0
+   Entry Point  : 0x11833880
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000000..0003ffff  Page=0  Memory Width=8  ROM Width=8  "SPIFLASH"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: C:/tliu61_xz7/mylabs/day123/day123Project\..\day123.bin [b0..b7]
+
+   CONTENTS: 00000000..00020bcf   BOOT TABLE
+                         .hwi_vec : btad=00000000  dest=11834400 size=00000200
+                            .bios : btad=0000020c  dest=11824c60 size=00004500
+                            .data : btad=00004714  dest=11834dc8 size=000000c0
+                           .pinit : btad=000047dc  dest=11830ff0 size=0000000c
+                            .text : btad=000047f0  dest=11800000 size=000173a0
+                           .cinit : btad=0001bb98  dest=11829160 size=00003134
+                          .switch : btad=0001ecd4  dest=11834f48 size=0000006c
+                         .gblinit : btad=0001ed48  dest=11834378 size=00000070
+                         .sysinit : btad=0001edc0  dest=11833560 size=00000500
+                         .trcdata : btad=0001f2c8  dest=11833554 size=0000000c
+                       .rtdx_text : btad=0001f2dc  dest=1182f2a0 size=00000fc0
+                           .const : btad=000202a4  dest=11832f48 size=0000060c
+                            .args : btad=000208b8  dest=1182e294 size=00000004
+                           .trace : btad=000208c4  dest=11834600 size=00000200
+                             .log : btad=00020acc  dest=11834ff0 size=00000030
+                             .sts : btad=00020b04  dest=11834e88 size=000000c0
